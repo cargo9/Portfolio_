@@ -13,7 +13,8 @@ export default function Contact() {
         <span className="eyebrow">Contacts</span>
         <h2 className="contact-title">Let&apos;s build something precise together</h2>
         <p className="contact-lead">
-          Открыт к сотрудничеству и интересным задачам. Напишите — обсудим проект.
+          Open to collaboration and interesting challenges. Drop a line — let's
+          discuss your project.
         </p>
 
         <div className="contact-list">

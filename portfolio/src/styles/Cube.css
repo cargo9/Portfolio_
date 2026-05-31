@@ -18,7 +18,7 @@
   width: var(--size);
   height: var(--size);
   transform-style: preserve-3d;
-  animation: cube-turn 6s ease-in-out infinite;
+  animation: cube-spin 14s linear infinite;
 }
 
 .cube-stage .face {
@@ -54,27 +54,18 @@
   transform: rotateX(-90deg) translateZ(calc(var(--size) / 2));
 }
 
-@keyframes cube-turn {
+/* Continuous full rotation around a diagonal (~37° down) axis */
+@keyframes cube-spin {
   0% {
-    transform: rotateX(-28deg) rotateY(-45deg);
-  }
-  50% {
-    transform: rotateX(-48deg) rotateY(-15deg);
+    transform: rotate3d(-0.75, 1, 0, 0deg);
   }
   100% {
-    transform: rotateX(-28deg) rotateY(-45deg);
+    transform: rotate3d(-0.75, 1, 0, 360deg);
   }
 }
 
 @media (max-width: 768px) {
   .cube-stage {
     --size: 150px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .cube-stage .cube {
-    animation: none;
-    transform: rotateX(-28deg) rotateY(-45deg);
   }
 }

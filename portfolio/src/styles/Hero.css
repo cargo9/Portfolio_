@@ -46,7 +46,7 @@
 
 .btn-primary {
   background: var(--ink);
-  color: #fff;
+  color: var(--bg);
 }
 
 .btn-primary:hover {
@@ -73,7 +73,7 @@
   justify-content: center;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: linear-gradient(180deg, #ffffff, #f4f6f9);
+  background: linear-gradient(180deg, var(--surface), var(--bg));
   overflow: hidden;
 }
 

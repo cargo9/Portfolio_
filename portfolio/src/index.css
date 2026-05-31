@@ -25,10 +25,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Dark theme */
+:root[data-theme='dark'] {
+  --bg: #15181c;
+  --surface: #1d2127;
+  --ink: #f2f4f7;
+  --muted: #9aa3ad;
+  --line: #2a2f37;
+  --line-strong: #3b424c;
+  --accent: #ff6a3d;
+  --accent-ink: #ff8763;
+  color-scheme: dark;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Smooth theme transition */
+body,
+.navbar,
+.hero-visual,
+.stat,
+.skill,
+.project,
+.contact-card,
+.tag,
+.btn,
+.theme-toggle {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
 }
 
 html {

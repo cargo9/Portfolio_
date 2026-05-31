@@ -4,19 +4,19 @@ const projects = [
   {
     year: '2026',
     name: 'Aurora Dashboard',
-    desc: 'Веб-приложение: аналитическая панель с интерактивными графиками и тёмной темой.',
+    desc: 'Web app: an analytics panel with interactive charts and a dark theme.',
     tags: ['React', 'Charts', 'Dark UI'],
   },
   {
     year: '2025',
     name: 'Mono Commerce',
-    desc: 'E-commerce с акцентом на минимализм, типографику и строгую сеточную структуру.',
+    desc: 'E-commerce focused on minimalism, typography and a strict grid structure.',
     tags: ['Storefront', 'Grid', 'Typography'],
   },
   {
     year: '2024',
     name: 'Pulse Landing',
-    desc: 'Маркетинговый лендинг для SaaS с геометричной графикой и анимациями.',
+    desc: 'A marketing landing page for SaaS with geometric graphics and animations.',
     tags: ['Landing', 'Motion', 'SaaS'],
   },
 ];

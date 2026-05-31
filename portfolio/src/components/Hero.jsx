@@ -12,8 +12,8 @@ export default function Hero() {
             <span className="accent"> minimalism &amp; geometry</span>.
           </h1>
           <p className="hero-lead">
-            Я работаю с чистыми сетками, чёткой типографикой и точными акцентами —
-            создавая интерфейсы, где форма следует за смыслом.
+            I work with clean grids, clear typography and precise accents —
+            building interfaces where form follows meaning.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">
