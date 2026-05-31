@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <span>© 2026 — Portfolio</span>
-        <span className="footer-note">Crafted with geometry</span>
+        <span className="footer-note">:)</span>
       </div>
     </footer>
   );

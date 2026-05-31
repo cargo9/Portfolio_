@@ -1,9 +1,9 @@
 import '../styles/Contact.css';
 
 const contacts = [
-  { label: 'Email', value: 'hello@portfolio.dev', href: 'mailto:hello@portfolio.dev' },
-  { label: 'Telegram', value: '@developer', href: 'https://t.me/developer' },
-  { label: 'GitHub', value: 'github.com/dev', href: 'https://github.com/dev' },
+  { label: 'Email', value: 'suntsevyaroslav@gmail.com', href: 'mailto:suntsevyaroslav@gmail.com' },
+  { label: 'Telegram', value: '@Carg09_09', href: 'https://t.me/Carg09_09' },
+  { label: 'GitHub', value: 'github.com/cargo9', href: 'https://github.com/cargo9' },
 ];
 
 export default function Contact() {

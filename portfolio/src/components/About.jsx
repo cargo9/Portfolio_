@@ -1,9 +1,9 @@
 import '../styles/About.css';
 
 const stats = [
-  { value: '04+', label: 'Years of experience' },
-  { value: '30+', label: 'Completed projects' },
-  { value: '12+', label: 'Happy clients' },
+  { value: '1+', label: 'Years of experience' },
+  { value: '5+', label: 'Completed projects' },
+  { value: '5+', label: 'Happy clients' },
 ];
 
 export default function About() {
@@ -19,7 +19,7 @@ export default function About() {
             a system: grid, rhythm, typography and nothing superfluous.
           </p>
           <p>
-            I'm drawn to a geometric approach — where form is built from simple
+            I'm drawn to a approach — where form is built from simple
             shapes and carefully balanced proportions.
           </p>
         </div>

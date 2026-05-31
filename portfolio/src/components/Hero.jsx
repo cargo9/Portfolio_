@@ -8,12 +8,12 @@ export default function Hero() {
         <div className="hero-copy">
           <span className="eyebrow">Welcome</span>
           <h1 className="hero-title">
-            Creative developer crafting interfaces of
-            <span className="accent"> minimalism &amp; geometry</span>.
+            Hi, I'm a web developer building
+            <span className="accent"> modern applications</span>.
           </h1>
           <p className="hero-lead">
-            I work with clean grids, clear typography and precise accents —
-            building interfaces where form follows meaning.
+            I work with React, JavaScript, and latest web technologies
+            to create efficient, user-focused interfaces.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">
