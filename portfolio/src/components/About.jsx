@@ -14,13 +14,13 @@ export default function About() {
           <span className="eyebrow">About</span>
           <h2 className="about-title">Design and code as a unified language</h2>
           <p>
-            Несколько лет я создаю веб-продукты, соединяя инженерную точность и
-            визуальную выразительность. Каждый интерфейс — это система: сетка,
-            ритм, типографика и ничего лишнего.
+            For several years I have been building web products, combining
+            engineering precision with visual expressiveness. Every interface is
+            a system: grid, rhythm, typography and nothing superfluous.
           </p>
           <p>
-            Мне близок геометричный подход — когда форма строится на простых
-            фигурах и выверенных пропорциях.
+            I'm drawn to a geometric approach — where form is built from simple
+            shapes and carefully balanced proportions.
           </p>
         </div>
 

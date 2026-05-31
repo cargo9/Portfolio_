@@ -3,15 +3,15 @@ import '../styles/Skills.css';
 const skills = [
   {
     name: 'React',
-    desc: 'Компонентные архитектуры, состояние, хуки и переиспользуемые UI-системы.',
+    desc: 'Component architectures, state, hooks and reusable UI systems.',
   },
   {
     name: 'JavaScript',
-    desc: 'Современный JS, работа с данными, анимации и логика интерфейсов.',
+    desc: 'Modern JS, data handling, animations and interface logic.',
   },
   {
     name: 'HTML / CSS',
-    desc: 'Семантика, адаптивные сетки, типографика и точная геометрия макета.',
+    desc: 'Semantics, responsive grids, typography and precise layout geometry.',
   },
 ];
 
